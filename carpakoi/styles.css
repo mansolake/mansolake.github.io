@@ -1,0 +1,148 @@
+/* General Styles */
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+    color: #DFDFDF;
+    background-color: #1E1E1E;
+}
+
+.container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+/* Hero Section */
+.hero {
+    background: linear-gradient(135deg, #FF4D4D, #1E1E1E);
+    color: white;
+    text-align: center;
+    padding: 50px 20px;
+}
+
+.hero h1 {
+    font-size: 3rem;
+    margin: 0 0 10px;
+}
+
+.logo {
+    width: 220px;
+    margin-bottom: 20px;
+    border: 3px solid white;
+    border-radius: 50%;
+    background: white;
+    padding: 0px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.5);
+}
+
+.cta-button {
+    display: inline-block;
+    background: #FF4D4D;
+    color: white;
+    padding: 10px 20px;
+    font-size: 1.2rem;
+    font-weight: bold;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+.cta-button:hover {
+    background: #E04343;
+}
+
+/* Intro Section */
+.intro {
+    padding: 50px 20px;
+    background: #1E1E1E;
+    text-align: center;
+}
+
+.intro h2 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+    color: #FF4D4D;
+}
+
+.intro p {
+    font-size: 1.2rem;
+}
+
+/* Features Section */
+.features {
+    padding: 50px 20px;
+    background: #121212;
+}
+
+.features h2 {
+    text-align: center;
+    font-size: 2.5rem;
+    margin-bottom: 40px;
+    color: #FF4D4D;
+}
+
+.feature {
+    margin-bottom: 20px;
+    color: #DFDFDF;
+}
+
+.feature h3 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+    color: #FF4D4D;
+}
+
+/* Benefits Section */
+.benefits {
+    padding: 50px 20px;
+    background: #1E1E1E;
+    color: #DFDFDF;
+}
+
+.benefits h2 {
+    text-align: center;
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+    color: #FF4D4D;
+}
+
+.benefits ul {
+    list-style: none;
+    padding: 0;
+}
+
+.benefits li {
+    font-size: 1.2rem;
+    margin: 10px 0;
+}
+
+.benefits li strong {
+    color: #FF4D4D;
+}
+
+/* Call-to-Action Section */
+.cta {
+    padding: 50px 20px;
+    background: linear-gradient(135deg, #1E1E1E, #FF4D4D);
+    text-align: center;
+    color: white;
+}
+
+.cta h2 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+}
+
+.cta p {
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+}
+
+/* Footer */
+footer {
+    background: #1E1E1E;
+    color: #DFDFDF;
+    text-align: center;
+    padding: 20px 0;
+}
